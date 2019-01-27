@@ -58,7 +58,7 @@ Devuelve un json con todos los anuncios existentes. Sobre esta url podremos apli
 
 El método y filtros son los mismos explicados con anterioridad en las rutas de la Web.
 
-Mediante un POST podemos añadir un nuevo anuncio. 
+Mediante POST podemos añadir un nuevo anuncio. 
 Con DELETE podremos eliminar un anuncio, introduciendo su ID al final de la ruta, 'http://localhost:3000/api/:id'.
 
 * http://localhost:3000/api/tags
