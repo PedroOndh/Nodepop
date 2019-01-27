@@ -16,7 +16,7 @@
     {
     "nombre": "Televisión antigua",
     "venta": true,
-    "precio": 100.00,
+    "precio": 100.70,
     "foto": "tele.jpg",
     "tags": [ "electronics", "furniture"]
     },
@@ -51,7 +51,7 @@
     {
     "nombre": "Coche en miniatura",
     "venta": true,
-    "precio": 5.00,
+    "precio": 5.50,
     "foto": "cochemin.jpg",
     "tags": [ "colectables", "motor"]
     },
@@ -65,7 +65,7 @@
     {
     "nombre": "Zapatillas nike",
     "venta": true,
-    "precio": 25.00,
+    "precio": 25.10,
     "foto": "zapatillas.jpg",
     "tags": [ "colectables", "clothing", "lifestyle"]
     },
