@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: cadetblue;
+}
+
+.anuncios {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.anuncio {
+  background: #f3f9fc;
+  width: 31%;
+  padding: 1rem 2rem;
+  margin: 1%;
+  -webkit-box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.anuncio h3{
+  text-transform: uppercase;
+}
+
+.anuncio .img-wrapper {
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.anuncio img {
+  width: 100%;
+}
+
+.anuncio .price .price-number{
+  font-size: 2rem;
+  color: orange;
+}
+
+.anuncio .tags p{
+  float: left; 
+  padding: 1rem;
+  color: red;
+
+}
+
+.tags_wrapper {
+  background: #f3f9fc;;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.tags_wrapper p{
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1000px){
+  .anuncio {
+      width: 48%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .anuncio {
+      width: 100%;
+  }
+}

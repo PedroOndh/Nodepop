@@ -1,0 +1,87 @@
+[
+    {
+    "nombre": "Bicicleta",
+    "venta": true,
+    "precio": 230.15,
+    "foto": "bicicleta.jpg",
+    "tags": [ "lifestyle", "motor"]
+    },
+    {
+    "nombre": "iPhone 3GS",
+    "venta": false,
+    "precio": 50.00,
+    "foto": "iphone.jpg",
+    "tags": [ "electronics", "mobile"]
+    },
+    {
+    "nombre": "Televisión antigua",
+    "venta": true,
+    "precio": 100.00,
+    "foto": "tele.jpg",
+    "tags": [ "electronics", "furniture"]
+    },
+    {
+    "nombre": "Videojuego de segunda mano",
+    "venta": true,
+    "precio": 10.00,
+    "foto": "videojuego.jpg",
+    "tags": [ "lifestyle", "electronics"]
+    },
+    {
+    "nombre": "Coche",
+    "venta": false,
+    "precio": 2000.00,
+    "foto": "coche.jpg",
+    "tags": [ "work", "motor"]
+    },
+    {
+    "nombre": "Ipad",
+    "venta": false,
+    "precio": 120.00,
+    "foto": "ipad.jpg",
+    "tags": [ "lifestyle", "mobile"]
+    },
+    {
+    "nombre": "Chaqueta de esqui",
+    "venta": true,
+    "precio": 80.00,
+    "foto": "chaqueta.jpg",
+    "tags": [ "lifestyle", "clothing"]
+    },
+    {
+    "nombre": "Coche en miniatura",
+    "venta": true,
+    "precio": 5.00,
+    "foto": "cochemin.jpg",
+    "tags": [ "colectables", "motor"]
+    },
+    {
+    "nombre": "Yo yo",
+    "venta": true,
+    "precio": 10.00,
+    "foto": "yoyo.jpg",
+    "tags": [ "lifestyle", "toys"]
+    },
+    {
+    "nombre": "Zapatillas nike",
+    "venta": true,
+    "precio": 25.00,
+    "foto": "zapatillas.jpg",
+    "tags": [ "colectables", "clothing", "lifestyle"]
+    },
+    {
+    "nombre": "Cargador para iphone",
+    "venta": true,
+    "precio": 2500.00,
+    "foto": "cargador.jpg",
+    "tags": [ "mobile", "lifestyle"]
+    },
+    {
+    "nombre": "Reloj",
+    "venta": true,
+    "precio": 300.00,
+    "foto": "reloj.jpg",
+    "tags": [ "colectables", "lifestyle"]
+    }
+    
+]
