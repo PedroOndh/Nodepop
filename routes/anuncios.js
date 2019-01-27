@@ -30,6 +30,7 @@ router.get('/', async (req, res, next) => {
       filter.venta = venta;
     }
 
+    // Habilitamos la posibilidad de filtrar el precio en rangos de mayor y menor que
     if (precio) {
       if (precio.includes('-')){
         let precioArr = precio.split('-');
@@ -45,6 +46,7 @@ router.get('/', async (req, res, next) => {
       }
     }
 
+    // Habilitamos la opcion de buscar mas de un tag
     if (tags) {
       if (tags.includes(',')){
         let tagsArr = tags.split(',');
@@ -55,7 +57,7 @@ router.get('/', async (req, res, next) => {
       }
     }
 
-    // buscamos anuncios en la base de datos
+    // buscamos anuncios en la base de datos, eliminando la opcion de filtrar solo algunos campos
     res.locals.anuncios = await Anuncio.listar(filter, skip, limit, null, sort);
 
     res.render('index', { title: 'Nodepop' });
