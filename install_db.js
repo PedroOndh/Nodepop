@@ -14,7 +14,7 @@ db.once('open', async () => {
   try {
     
     // preguntar al usuario si quiere borrar la base de datos
-    const respuesta = await askUser('Estás seguro que quieres que borre TODA la base de datos? (no) ');
+    const respuesta = await askUser('Estás seguro de que quieres borrar TODA la base de datos? (no) ');
 
     if (respuesta.toLowerCase() !== 'si') {
       console.log('Abortado!');
