@@ -32,6 +32,7 @@ router.get('/', async (req, res, next) => {
       filter.venta = venta;
     }
 
+    // Habilitamos la posibilidad de filtrar el precio en rangos de mayor y menor que
     if (precio) {
       if (precio.includes('-')){
         let precioArr = precio.split('-');
@@ -47,6 +48,7 @@ router.get('/', async (req, res, next) => {
       }
     }
 
+    // Habilitamos la opcion de buscar mas de un tag
     if (tags) {
       if (tags.includes(',')){
         let tagsArr = tags.split(',');
@@ -68,6 +70,11 @@ router.get('/', async (req, res, next) => {
   }
 });
 
+/**
+ * GET /anuncios/tags
+ * Obtener una lista de los tags existentes, es decir: todos aquellos utilizados entre todos los anuncios.
+ * 
+ */
 router.get('/tags', async (req, res, next) => {
   try{
 
