@@ -25,7 +25,7 @@ require('./models/Anuncio');
 /**
  * Rutas de nuestra Web
  */
-app.use('/anuncios', require('./routes/anuncios'));
+app.use('/', require('./routes/anuncios'));
 
  /**
  * Rutas de nuestro API

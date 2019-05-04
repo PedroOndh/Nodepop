@@ -1,3 +1,29 @@
+# Para el ejercicio de Dev Ops, he utilizado:
+
+## Para Nodepop
+
+```shell
+http://ec2-13-53-81-90.eu-north-1.compute.amazonaws.com/
+```
+
+## Para la plantilla de Bootstrap
+
+```shell
+http://13.53.81.90/
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 # NodePop
 
 ## Para inicializar el proyecto:
